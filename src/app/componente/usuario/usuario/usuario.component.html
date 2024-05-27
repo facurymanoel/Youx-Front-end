@@ -1,0 +1,23 @@
+<table>
+     <thead>
+          <th>ID</th>
+          <th>Login</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>UF</th>
+          <th>Localizacao</th>
+     </thead>
+     <tbody>
+             <tr *ngFor ="let student of students ">
+                <td>{{student.id}}</td>
+                <td>{{student.login}}</td>
+                <td>{{student.nome}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.telefone}}</td>
+                <td>{{student.uf}}</td>
+                <td>{{student.localizacao}}</td>
+
+             </tr>
+     </tbody>
+</table>
